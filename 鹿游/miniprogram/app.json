@@ -1,0 +1,51 @@
+{
+  "cloud": true,
+  "pages": [
+    "pages/index/index",
+    "pages/guanLiHD/guanLiHD",
+    "pages/geRenXinXi/geRenXinXi",
+    "pages/bianJiShuXing/bianJiShuXing",
+    "pages/wan/wan",
+    "pages/chuangJHD/chuangJHD",
+    "pages/userConsole/userConsole",
+    "pages/storageConsole/storageConsole",
+    "pages/databaseGuide/databaseGuide",
+    "pages/addFunction/addFunction",
+    "pages/deployFunctions/deployFunctions",
+    "pages/chooseLib/chooseLib",
+    "pages/openapi/openapi",
+    "s"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "鹿游",
+    "navigationBarTextStyle": "black"
+  },
+
+  "tabBar": {
+    "list": [
+      {
+        "iconPath": "images/rentou.png",
+        "selectedIconPath": "images/rentou.png",
+        "pagePath": "pages/index/index",
+        "text": "个人信息"
+      },
+      { 
+        "iconPath": "images/jia.jpg",
+        "selectedIconPath": "images/jia.jpg",
+        "pagePath":"pages/chuangJHD/chuangJHD",
+        "text": "发起活动"
+      },
+      {
+        "iconPath": "images/wanwan.jpg",
+        "selectedIconPath": "images/wanwan.jpg",
+        "pagePath": "pages/wan/wan",
+        "text": "活动中心"
+      }
+    ]
+  },
+  
+  "sitemapLocation": "sitemap.json"
+}

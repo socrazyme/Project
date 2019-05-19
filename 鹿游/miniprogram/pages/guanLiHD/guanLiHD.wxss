@@ -1,0 +1,88 @@
+page {
+  background: #f6f6f6;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background:url('https://776f-woodx-xf0rr-1259222094.tcb.qcloud.la/beiJingTuPian.jpg?sign=18d84229cc7e00bcf91ec3fef641c6a3&t=1557922950');
+  background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  -webkit-background-size: 100% 100%;
+}
+
+.guanLi-zuiHo{
+  display: flex;
+  flex-direction: column-reverse
+}
+.guanLi{
+  display: flex;
+  flex-direction: row-reverse;
+
+}
+
+
+
+.imagel {
+  display: flex;
+  justify-content: center;
+  
+}
+
+.maxView{
+  background: #f6f6f6;
+}
+
+.userinfo-avatar {
+  width: 100rpx;
+  height: 100rpx;
+  margin: 10rpx;
+  border-radius: 50%;
+  background-size: cover;
+  background-color: white;
+}
+
+.table{
+  width: 98%;
+  margin-left: 1%;
+  background: #f6f6f6; 
+}
+.tr{
+  width:100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.th,.td{
+  padding: 10px;
+  width: 100%;
+  text-align: center;
+}
+.th-liu{
+  padding: 5px;
+  width: 100%;
+  font-size: 28rpx;
+  font-weight: 800;
+}
+.th1,.th2,.td1,.td2{
+  width: 40%;
+}
+.th{
+  font-weight: 800;
+  font-size: 28rpx;
+  color: #330e0e;
+}
+.td{
+  font-weight: 800;
+  font-size: 28rpx;
+  color: #330e03;
+}
+
+.liuyan{
+  background: #d0d0d0;
+}
+
+
+
+
+
+

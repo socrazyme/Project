@@ -1,0 +1,94 @@
+page {
+  background: #f6f6f6;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: flex-start;
+  background:url('https://776f-woodx-xf0rr-1259222094.tcb.qcloud.la/beiJingTuPian.jpg?sign=18d84229cc7e00bcf91ec3fef641c6a3&t=1557922950');
+  background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  -webkit-background-size: 100% 100%;
+}
+
+.history-table-wrap{
+  position: absolute;
+  width: 668rpx;
+  height: 2000rpx;
+  left: 50%;
+  margin-left: -334rpx;
+  top: 70rpx;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.userinfo-avatar {
+  width: 120rpx;
+  height: 120rpx;
+  margin: 10rpx;
+  border-radius: 50%;
+  background-size: cover;
+  background-color: white;
+}
+
+
+.table{
+  border:1px solid #dadada;
+  border-right:0;
+  border-bottom: 0;
+  width: 98%;
+  margin-left: 1%;
+}
+.tr{
+  width:100%;
+  display: flex;
+  justify-content: space-between;
+}
+.th,.td{
+  padding: 10px;
+  border-bottom: 1px solid #dadada;
+  border-right: 1px solid #dadada;
+  text-align: center;
+ 
+  width: 100%;
+}
+.th-out{
+  padding: 10px;
+  text-align: center;
+}
+.th1,.th2,.td1,.td2{
+  width: 40%;
+}
+.th{
+  font-weight: 800;
+  font-size: 28rpx;
+  color: #330e0e;
+}
+.td{
+  font-weight: 800;
+  font-size: 28rpx;
+  color: #330e03;
+}
+
+
+.tiJiaoButton{
+  display: flex;
+  flex-direction: row-reverse;
+}
+.tiJiaoButton-color{
+  background: #ffffff;
+}
+
+.tiJiaoButton-color-hover{
+  background:#3a54e2;
+}
+
+
+.flex {
+  display: flex;
+  flex-direction: row-reverse;
+  background: lightgray;
+}
+
+.flexitem {
+  width: 60px;
+}

@@ -1,0 +1,37 @@
+<view wx:for="{{geRenData}}" wx:for-index="idx" wx:for-item="itm">
+    <view class='th-tou th1'style="font-weight: 800;font-size: 28rpx;">
+      <view class='userinfo-avatar' style="mode=widthFix; background-image:url({{itm.touXiang}})"></view>
+      <text decode="true">&nbsp;&nbsp;&nbsp;{{itm.mingZi}}</text>
+    </view>
+    <view class="table">
+      <view class="tr">
+          <text class="th th1">性别</text>
+          <text class="th th3" decode="true">{{itm.xingBie}}</text>
+      </view>
+      <view class="tr">
+        <text class="td td1">QQ</text>
+        <text class="td td3" >{{itm.qQ}}</text>
+      </view>
+      <view class="tr">
+        <text class="td td1">大学</text>
+        <text class="td td3">{{itm.daXue}}</text>
+      </view>
+      <view class="tr">
+        <text class="td td1">年级</text>
+        <text class="td td3">{{itm.nianJi}}</text>
+      </view>
+      <view class="tr">
+        <text class="td td1">专业</text>
+        <text class="td td3">{{itm.zhuanYe}}</text>
+      </view>
+      <view class="tr">
+        <text class="td td3">个人介绍</text>
+      </view>
+      <view class="tr">
+      <text class="td td3">{{itm.jieShao}}</text>
+      </view>
+    </view>
+<text>\n\n</text>
+</view>
+
+

@@ -1,0 +1,81 @@
+<!--<swiper indicator-dots="true">
+  <block wx:for="{{imgSrc}}" >
+    <swiper-item>
+      <image src="{{item}}" class="imagel"/>
+    </swiper-item>
+  </block>
+</swiper>-->
+
+<text>\n</text>
+
+<view wx:for="{{allData.data}}" wx:for-index="idx" wx:for-item="itm" bindtap="">
+<view class='table' style="background: url('https://776f-woodx-xf0rr-1259222094.tcb.qcloud.la/fengJing-shu.jpg?sign=f480d30482c54fcc1ed9dc695cfbd8f6&t=1558171552')">
+  <view class='tr'>
+    <view class='th th1'>
+      <view class='userinfo-avatar' style="background-image:url({{itm.faQiRenTouXiang}})"></view>
+      <text decode="true">{{itm.faQiRen}}</text>
+    </view>
+    <view class='th th2'>
+      <text>\n{{itm.mingCheng}}</text>
+    </view>
+    <view class='th th3'>
+      <text decode="true">\n时间：\n</text>
+      <text>{{itm.kaiShi}}-{{itm.jieShu}}</text>
+    </view>
+  </view>
+  <view class='tr'>
+      <view class='td td1'>
+        <text>地点：\n{{itm.diDian}}</text>
+      </view>
+      <view class='td td3'>
+        <text>概要：{{itm.gaiKuang}}</text>
+      </view>
+    </view>
+    <view class='tr'> 
+      <view class='th th1'>
+        <button size="mini" style="background: grey; color:red" bindtap="tuiChu" data-id='{{idx}}'>{{tuiChuOrNot[idx]}}</button>
+      </view>
+      <view class='th th2'>
+      </view>
+      <view class='th th3'>
+         <button style="color:red" size="mini" bindtap="duiYouXinXi" data-id='{{idx}}' style="background: grey">查看小伙伴信息</button>
+      </view>
+  </view>
+    <view style="background: url('https://776f-woodx-xf0rr-1259222094.tcb.qcloud.la/liuYan.png?sign=f5b1c8fd5f5e0b1a0530aa6cd075087c&t=1558089636')">
+    <view wx:for="{{itm.liuYan}}" wx:for-index="index" wx:for-item="item" >
+      <view class='tr' stylr=''>
+        <view class='th-liu th1' style="">
+          <text decode="true">&nbsp;&nbsp;&nbsp;{{item.chengYuanMingZi}}：</text>
+        </view>
+        <view class='th-liu th3'>
+          <text>{{item.liuYan}}</text>
+        </view>
+      </view>
+    </view>
+    </view>
+    <form bindsubmit='button'>
+    <view class='tr liuyan' style="">
+      <view class='th th1' style="color:blue;" style=")">
+        <text>留言：</text>
+      </view>
+      <view class='th th3' style="background:">
+        <input name="liuYan" value="{{liuYan}}"></input>
+      </view>
+    </view>
+    <view class='tr'>
+      <view class='th th1'>
+       
+      </view>
+      <view class='th th2'></view>
+      <view class='td td3' style="color: white">
+        <button size="mini" style="background: url('https://776f-woodx-xf0rr-1259222094.tcb.qcloud.la/liuYan.png?sign=f5b1c8fd5f5e0b1a0530aa6cd075087c&t=1558089636');color: black;" data-id='{{idx}}'bindtap="button" form-type='submit'>发送</button>
+      </view>
+    </view>
+    </form>
+</view>
+  <text>\n</text>
+</view>
+<!----------------------------------------------------------------------------------------------->
+
+  
+

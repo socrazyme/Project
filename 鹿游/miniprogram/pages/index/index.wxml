@@ -1,0 +1,63 @@
+<!--index.wxml-->
+
+<view class="container">
+
+  <!-- 用户 openid -->
+  
+    <button 
+      open-type="getUserInfo" 
+      bindgetuserinfo="onGetUserInfo"
+      class="userinfo-avatar"
+      style="background-image: url({{avatarUrl}})"
+    ></button>
+    <!------------>
+    <view class='viewText-name'>
+    <text>{{huaMing}}</text>
+    </view>
+    
+</view>
+<text>\n</text>
+
+
+
+<view class='view_quanJu'>
+<text>\n\n\n</text>
+<view class='viewText' style="width: 150rpx">
+  <text>性别：</text>
+  <text>{{xingBie}}</text>
+</view>
+<text>\n</text>
+<view class='viewText' style="width: 300rpx">
+  <text>大学：</text>
+  <text>{{daXue}}</text>
+</view>
+<text>\n</text>
+<view class='viewText' style="width: 300rpx">
+  <text>年级：</text>
+  <text>{{nianJi}}</text>
+</view>
+<text>\n</text>
+<view class='viewText' style="width: 400rpx">
+  <text>专业：</text>
+  <text>{{zhuanYe}}</text>
+</view>
+<text>\n</text>
+<view class='viewText' style="width: 500rpx">
+  <text>QQ：</text>
+  <text>{{qQ}}</text>
+</view>
+<text>\n</text>
+<view class=""style="width: 2000rpx">
+  <text>个人介绍：</text>
+</view>
+<text decode="true" class=''>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{geRenJieShao}}</text>
+
+</view >
+<text>\n</text>
+  <view class='guanLi' style="color:black" bindtap='bianJiXinXi'>编辑信息</view>
+
+  
+
+
+
+

@@ -1,0 +1,37 @@
+
+<text>\n\n</text>
+<form bindsubmit="formInformation">
+    <view class="table">
+      <view class="tr">
+          <text class="th th1">性别</text>
+          <input class="th th3" name='xingBie' value="{{xingBie}}"></input>
+      </view>
+      <view class="tr">
+        <text class="td td1">QQ</text>
+        <input class="td td3" name='qQ' value="{{qQ}}"></input>
+      </view>
+      <view class="tr">
+        <text class="td td1">大学</text>
+        <input class="td td3" name='daXue' value="{{daXue}}"></input>
+      </view>
+      <view class="tr">
+        <text class="td td1">年级</text>
+        <input class="td td3" name='nianJi' value="{{nianJi}}"></input>
+      </view>
+      <view class="tr">
+        <text class="td td1">专业</text>
+        <input class="td td3" name='zhuanYe' value="{{zhuanYe}}"></input>
+      </view>
+      <view class="tr">
+        <text class="td td3">个人介绍</text>
+      </view>
+      <view class="tr">
+      <textarea class="td td3" name='jieShao' value="{{jieShao}}"></textarea>
+      </view>
+    </view>
+    <text>\n\n\n</text>
+    <view class='tiJiaoButton'>
+      <button class='tiJiaoButton-color' hover-class='tiJiaoButton-color-hover' bindtap='' formType="submit">修改信息</button>
+    </view>
+</form>
+
